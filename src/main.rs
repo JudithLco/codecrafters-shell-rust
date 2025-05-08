@@ -14,8 +14,7 @@ fn main() {
         if let Some((command, args)) = input.split_once(" "){
             match command {
                 "exit" => {
-                    println!("{}", args);
-                    if args == "O" {
+                    if args == "0" {
                         return;
                     }
                     else {
